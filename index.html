@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Devchallenges</title>
+</head>
+
+<body>
+  <!--Empezar con el header tarea de 30 min -->
+  <!--header estructura-->
+  <header class="navegador">
+    <div class="navegador__titulo">
+      <h2>this interior</h2>
+    </div>
+    <nav id="menu" class="navegador__links">
+    <img src="imgs/icons8-eliminar-50.png" onclick="closeMenuF()" alt="Menu hamburgesa javascript" class="close_menu">
+      <ul class="navegador__lista">
+        <li class="navegador__lista--link"><a href="index.html" onclick="optionClick()">Home</a></li>
+        <li class="navegador__lista--link"><a href="index.html" onclick="optionClick()">About</a></li>
+        <li class="navegador__lista--link"><a href="index.html" onclick="optionClick()">Collection</a></li>
+        <li class="navegador__lista--link"><a href="index.html" onclick="optionClick()">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="imgs/icons8-menú-50.png" onclick="openMenu()" alt="Menu hamburgesa javascript" class="menu">
+  </header>
+  <!--header-->
+
+  <main class="contenedor__info">
+    <div class="contenedor">
+      <div class="contenedor__titulo">
+        <h2>Modern interior</h2>
+      </div>
+      <div class="contenedor__texto">
+        <p>
+          A full-Service residential & commercial interior design and staging company offering professional organizing &
+          eco-services.
+        </p>
+      </div>
+      <div class="contenedor__enlace">
+        <a href="#">Read more &#8594</a>
+      </div>
+    </div>
+    <div class="contenedor contenedor__dos">
+      <div class="contenedor__dos--imagen">
+       <img src="imgs/photo1.png" alt="">
+
+       <div class="contenedor--card">
+        <header class="contenedor__card--top">
+          <div class="contenedor__card--photo">
+            <img src="imgs/photo2.png" alt="">
+          </div>
+          <div class="contenedor__card--textos">
+            <h3>Aliza Webber</h3>
+          <p>Interior designer</p>
+          </div>
+        </header>
+        <div class="contenedor__card--textot">
+          <p>Designed in 2020 by Aliza Webber</p>
+        </div>
+      </div>
+      </div>
+
+
+      
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>created by <strong>CalderonRigoberto</strong> on GitHub - devChallenges.io</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>
